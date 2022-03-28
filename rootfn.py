@@ -1,7 +1,7 @@
 # test loading repo from git in different mlrun runtimes
 # contain function code (this) and locally imported lib (mylib)
 
-from mylib import myfunc
+from rootlib import myfunc
 
 tag = "main"
 
