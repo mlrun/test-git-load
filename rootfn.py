@@ -3,7 +3,7 @@
 
 from rootlib import myfunc
 
-tag = "main"
+tag = "refs/heads/tst"
 
 # mlrun job runtime entry
 def job_handler(context):

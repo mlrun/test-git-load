@@ -1,4 +1,4 @@
-tag = "main"
+tag = "refs/heads/tst"
 
 # mlrun serving runtime entry
 def echo(event):
