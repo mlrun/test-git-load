@@ -1,0 +1,15 @@
+kind: project
+metadata:
+  name: git-proj
+spec:
+  functions:
+  - name: myjob
+    kind: job
+    image: mlrun/mlrun
+    handler: func.job_handler
+    with_repo: true
+  - name: mynuclio
+    kind: nuclio
+    image: mlrun/mlrun
+    handler: func:nuclio_handler
+    with_repo: true
